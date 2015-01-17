@@ -13,7 +13,6 @@ public class Main {
             
             Type diesel = Engine.Type.valueOf("Diesel");
             Type gasoline = Engine.Type.valueOf("Gasoline");
-            Type x = Engine.Type.valueOf("as");
             
             Bus bus = new Bus(60, 3800, 1.8, gasoline);
             Car car = new Car(true, 1200, 1.8, diesel);
